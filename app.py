@@ -119,6 +119,6 @@ if model is not None:
             st.success("计算完成")
             # 这里的价格保留4位或6位小数，方便观察微小成本变动
             st.metric(label="预测成本单价 (PCS)", value=f"¥ {max(0, prediction):.6f}")
-            st.info("预测结果已程得出。")
+            st.info("预测结果已经得出。")
 
     # ==========================================
