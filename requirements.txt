@@ -1,6 +1,7 @@
+matplotlib
+seaborn
 streamlit
 pandas
 scikit-learn
 openpyxl
-matplotlib
-seaborn
+plotly
