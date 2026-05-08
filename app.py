@@ -192,7 +192,7 @@ if model:
             input_df = pd.DataFrame([user_input_dict])
             input_scaled = scaler.transform(input_df)
             final_price = max(0, model.predict(input_scaled)[0])
-            st.info("💡 历史库中未见完全一致配置，当前为 Lasso 智能预测结果。")
+            st.info("💡 历史库中未见完全一致配置，当前为智能预测结果。")
 
         # --- 结果展示部分 ---
         st.markdown('<div class="section-header">📋 核价结果分析</div>', unsafe_allow_html=True)
